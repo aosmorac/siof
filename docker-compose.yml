@@ -23,7 +23,7 @@ services:
         environment:
             - APP_LOG_LEVEL=debug
         links:
-            - barber_db
+            - siof_db
     siof_db:
         image: mariadb
         restart: always
