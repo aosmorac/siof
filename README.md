@@ -12,3 +12,8 @@ https://github.com/aosmorac/siof.git
 ```
 docker-compose up 
 ```
+
+* Open php docker.
+```
+docker exec -i -t siof-laravel sh
+```
